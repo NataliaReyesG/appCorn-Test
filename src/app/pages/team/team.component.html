@@ -5,8 +5,8 @@
   </div>
   <div class="box">
     <div *ngFor="let member of teamMembers">
-      <mat-card class="team-card">
-        <mat-card-header class="card-header">
+      <mat-card class="newcard team-card">
+        <mat-card-header class="newcard2 card-header">
           <img mat-card-md-image src="{{ member.photo }}" />
           <mat-card-title>{{ member.name }}</mat-card-title>
           <mat-card-subtitle
@@ -17,12 +17,16 @@
           <p>
             {{ member.description }}
           </p>
+        
         </mat-card-content>
+        <div class="justi">
         <mat-card-actions align="end">
-          <button mat-button color="primary" (click)="goTo(member.bioUrl)">View More</button>
+        <button mat-button color="primary" (click)="goTo(member.bioUrl)">View More</button>
           <button mat-button color="primary" (click)="goTo(member.bioUrl)">Bio</button>
         </mat-card-actions>
+      </div>
       </mat-card>
+    
     </div>
   </div>
 </div>

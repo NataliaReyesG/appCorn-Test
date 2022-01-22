@@ -3,3 +3,21 @@
   flex-wrap: wrap;
   place-content: center;
 }
+
+.newcard{
+   
+  -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+.newcard2{
+  height: 111px;
+  box-shadow: 0px 9px 13px -6px rgba(126, 55, 122, 0.65);
+}
+
+.justi{
+  display: flex;
+  justify-content: center;
+}
+
